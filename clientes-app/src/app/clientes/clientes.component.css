@@ -1,0 +1,11 @@
+.example-card {
+  max-width: 1000px;
+}
+
+.mat-card {
+  background: #ffffff;
+  color: rgb(15, 14, 14);
+}
+.mat-card-subtitle{
+  color: rgb(15, 14, 14);
+}

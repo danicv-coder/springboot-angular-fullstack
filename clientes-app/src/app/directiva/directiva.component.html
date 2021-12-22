@@ -1,0 +1,8 @@
+<button mat-raised-button color="primary" (click)="sethabilitar()">
+  {{ habilitar == true ? "Ocultar" : "Mostrar" }}
+</button>
+<div>
+  <ul *ngIf="habilitar">
+    <li *ngFor="let curso of listaCurso">{{ curso }}</li>
+  </ul>
+</div>
