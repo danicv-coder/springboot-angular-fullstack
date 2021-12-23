@@ -9,8 +9,9 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { FooterComponent } from './footer/footer.component';
 import { Observable } from 'rxjs';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
-// ANGULAR MATERIA
+// IMPORT ANGULAR MATERIA
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
@@ -36,6 +37,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     MatSliderModule,
